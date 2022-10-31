@@ -104,8 +104,7 @@ exports.onCreateWebpackConfig = (
       name: `@staticcms/core`,
       global: `StaticCmsCore`,
       assetDir: `dist`,
-      assetName: `static-cms-core.js`,
-      sourceMap: `static-cms-core.js.map`,
+      assetName: `static-cms-core.js`
     },
   ]
 
