@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-static-cms",
   "description": "A Gatsby plugin which generates the Static CMS single page app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Shawn Erquhart <shawn@erquh.art>",
   "bugs": {
     "url": "https://github.com/StaticJsCMS/gatsby-plugin-static-cms/issues"
@@ -36,7 +36,7 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "@staticcms/core": "next",
+    "@staticcms/core": "1.0.0-beta0",
     "gatsby": "^5.0.0-alpha-v5",
     "react": "^18.0.0 || ^0.0.0",
     "react-dom": "^18.0.0 || ^0.0.0",
