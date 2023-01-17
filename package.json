@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-static-cms",
   "description": "A Gatsby plugin which generates the Static CMS single page app",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "license": "MIT",
   "repository": "https://github.com/StaticJsCMS/gatsby-plugin-static-cms.git",
   "bugs": "https://github.com/StaticJsCMS/gatsby-plugin-static-cms/issues",
