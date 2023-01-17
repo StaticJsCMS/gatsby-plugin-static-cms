@@ -18,7 +18,7 @@
     "watch": "babel -w src --out-dir . --ignore \"**/__tests__\""
   },
   "dependencies": {
-    "@babel/runtime": "7.15.4",
+    "@babel/runtime": "7.20.7",
     "@soda/friendly-errors-webpack-plugin": "1.8.1",
     "copy-webpack-plugin": "7.0.0",
     "html-webpack-plugin": "5.3.2",
@@ -29,8 +29,8 @@
     "netlify-identity-widget": "1.9.2"
   },
   "devDependencies": {
-    "@babel/cli": "7.15.4",
-    "@babel/core": "7.15.5",
+    "@babel/cli": "7.20.7",
+    "@babel/core": "7.20.12",
     "babel-preset-gatsby-package": "3.0.0",
     "cross-env": "7.0.3",
     "react": "18.2.0",
