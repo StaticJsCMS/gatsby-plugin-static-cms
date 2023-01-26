@@ -101,10 +101,10 @@ exports.onCreateWebpackConfig = (
       assetName: `react-dom.production.min.js`,
     },
     {
-      name: `@staticcms/core`,
-      global: `StaticCmsCore`,
+      name: `@staticcms/app`,
+      global: `StaticCmsApp`,
       assetDir: `dist`,
-      assetName: `static-cms-core.js`
+      assetName: `static-cms-app.js`
     },
   ]
 

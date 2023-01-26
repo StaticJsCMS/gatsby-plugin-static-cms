@@ -1,4 +1,4 @@
-import CMS from "@staticcms/core"
+import CMS from "@staticcms/app"
 // set global variables required by Gatsby's components
 // https://github.com/gatsbyjs/gatsby/blob/deb41cdfefbefe0c170b5dd7c10a19ba2b338f6e/docs/docs/production-app.md#window-variables
 // some Gatsby components require these global variables set here:

@@ -12,7 +12,7 @@ site](https://staticjscms.netlify.app).
 ## Install
 
 ```shell
-npm install @staticcms/core gatsby-plugin-static-cms
+npm install @staticcms/app gatsby-plugin-static-cms
 ```
 
 ## How to use
@@ -65,11 +65,11 @@ The js module might look like this:
 
 ```javascript
 /**
- * The default export of `@staticcms/core` is an object with all of the Static CMS
+ * The default export of `@staticcms/app` is an object with all of the Static CMS
  * extension registration methods, such as `registerWidget` and
  * `registerPreviewTemplate`.
  */
-import CMS from "@staticcms/core"
+import CMS from "@staticcms/app"
 
 /**
  * Any imported styles should be automatically be applied to the editor preview
@@ -118,7 +118,7 @@ plugins: [
 The js module might look like this:
 
 ```javascript
-import CMS from "@staticcms/core"
+import CMS from "@staticcms/app"
 
 /**
  * Optionally pass in a config object. This object will be merged into `config.yml` if it exists
