@@ -3175,10 +3175,10 @@ babel-plugin-syntax-jsx@^6.18.0:
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz#0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946"
   integrity sha512-qrPaCSo9c8RHNRHIotaufGbuOBN8rtdC4QrrFFc43vyWCCz7Kl7GL1PGaXtMGQZUXrkCjNEgxDfmAuAabr/rlw==
 
-babel-preset-gatsby-package@3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/babel-preset-gatsby-package/-/babel-preset-gatsby-package-3.6.0.tgz#69069c73628e4735c27f73b0663b78be95e8d3a0"
-  integrity sha512-p4U/SlJ5mCpNpikRlm2TZa/sG3sqTEvpMhqGLNpvtItOes0VLKGy/md8tZsAuDySg+5GYGvByLZ/HAKg2QvaAg==
+babel-preset-gatsby-package@3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/babel-preset-gatsby-package/-/babel-preset-gatsby-package-3.7.0.tgz#2c3f9ec25fa58d6dab6eaea894f83a307b1e1939"
+  integrity sha512-clpaeP2PY4p7jsEnvau9l3foDkXh04bhIlVtroAoMmN4NxL/6yZeM9LvVpCHBRaGOM4WJfL+plddYoNN0Si0zg==
   dependencies:
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.18.6"
     "@babel/plugin-proposal-optional-chaining" "^7.20.7"
