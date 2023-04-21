@@ -142,7 +142,6 @@ exports.onCreateWebpackConfig = (
       ...gatsbyConfig.plugins.filter(
         plugin =>
           ![
-            `MiniCssExtractPlugin`,
             `GatsbyWebpackStatsExtractor`,
             `StaticQueryMapper`,
           ].find(
@@ -167,12 +166,6 @@ exports.onCreateWebpackConfig = (
           },
         }),
 
-      // Use a simple filename with no hash so we can access from source by
-      // path.
-      new MiniCssExtractPlugin({
-        filename: `[name].css`,
-      }),
-
       // Auto generate CMS index.html page.
       new HtmlWebpackPlugin({
         title: htmlTitle,
@@ -181,11 +174,6 @@ exports.onCreateWebpackConfig = (
         meta: {
           robots: includeRobots ? `all` : `none`, // Control whether search engines index this page
         },
-      }),
-
-      // Exclude CSS from index.html, as any imported styles are assumed to be targeting the editor preview pane.
-      new HtmlWebpackSkipAssetsPlugin({
-        skipAssets: [`cms.css`],
       }),
 
       // Pass in needed Gatsby config values.
