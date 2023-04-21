@@ -71,7 +71,7 @@ The js module might look like this:
  */
 import CMS from "@staticcms/app"
 
-import '@staticcms/core/dist/main.css';
+import '@staticcms/app/dist/main.css';
 
 /**
  * Any imported styles should be automatically be applied to the editor preview
@@ -122,7 +122,7 @@ The js module might look like this:
 ```javascript
 import CMS from "@staticcms/app"
 
-import '@staticcms/core/dist/main.css';
+import '@staticcms/app/dist/main.css';
 
 /**
  * Optionally pass in a config object. This object will be merged into `config.yml` if it exists
