@@ -255,5 +255,4 @@ exports.onCreateWebpackConfig = ({ actions }) => {
 
 ## Support
 
-For help with integrating Static CMS with Gatsby, check out the community
-[Discord](https://discord.com/invite/ZWJM9pBMjj).
+For help with integrating Static CMS with Gatsby, check out the community [Discord](https://discord.com/invite/ZWJM9pBMjj).
