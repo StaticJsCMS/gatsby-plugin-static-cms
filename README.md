@@ -256,4 +256,4 @@ exports.onCreateWebpackConfig = ({ actions }) => {
 ## Support
 
 For help with integrating Static CMS with Gatsby, check out the community
-[Slack](https://staticjscms.netlify.app/chat).
+[Discord]([https://staticjscms.netlify.app/chat](https://discord.gg/ZWJM9pBMjj)https://discord.gg/ZWJM9pBMjj).
