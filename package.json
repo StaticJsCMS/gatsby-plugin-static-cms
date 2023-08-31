@@ -18,24 +18,22 @@
     "watch": "babel -w src --out-dir . --ignore \"**/__tests__\""
   },
   "dependencies": {
-    "@babel/runtime": "7.21.0",
-    "@soda/friendly-errors-webpack-plugin": "1.8.1",
-    "copy-webpack-plugin": "11.0.0",
-    "html-webpack-plugin": "5.5.0",
-    "html-webpack-skip-assets-plugin": "1.0.3",
-    "html-webpack-tags-plugin": "3.0.2",
-    "lodash": "4.17.21",
-    "mini-css-extract-plugin": "2.7.3",
-    "netlify-identity-widget": "1.9.2"
+    "@babel/runtime": "^7.21.0",
+    "@soda/friendly-errors-webpack-plugin": "^1.8.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "html-webpack-tags-plugin": "^3.0.2",
+    "lodash": "^4.17.21",
+    "netlify-identity-widget": "^1.9.2"
   },
   "devDependencies": {
-    "@babel/cli": "7.21.0",
-    "@babel/core": "7.21.0",
-    "@staticcms/app": "^2.0.0",
-    "babel-preset-gatsby-package": "3.7.0",
-    "cross-env": "7.0.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@staticcms/app": "^3.0.0",
+    "babel-preset-gatsby-package": "^3.7.0",
+    "cross-env": "^7.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "homepage": "https://github.com/StaticJsCMS/gatsby-plugin-static-cms",
   "main": "index.js",
